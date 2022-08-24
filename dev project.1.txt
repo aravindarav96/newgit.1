@@ -1,0 +1,32 @@
+
+
+DEVOPS PROJECT DAY-1 NOTES & LINKS.txt 
+Attachments area
+JENKINS INSTALLATION OTHER WAY
+--------------------------------
+
+amazon-linux-extras install epel -y
+
+yum update -y
+
+wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+sudo amazon-linux-extras install java-openjdk11
+
+yum install jenkins –y
+
+systemctl start jenkins
+
+
+GIT-HUB LINK(FORK PURPOSE)
+------------
+https://github.com/damodaranj/my-app
+
+
+MAVEN FILE DOWNLOAD LINK(apache-maven-3.8.4-bin.tar.gz)
+-------------------------------------------------------
+http://mirrors.estointernet.in/apache/maven/maven-3/3.8.4/binaries/
+DEVOPS PROJECT DAY-1 NOTES & LINKS.txt
+Displaying DEVOPS PROJECT DAY-1 NOTES & LINKS.txt.
